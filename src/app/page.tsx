@@ -1,9 +1,11 @@
 import Hero from "@/components/Hero";
 import { client } from "@/sanity/lib/client";
-import Image from "next/image";
-import Link from "next/link";
+
 
 export interface Blog {
+  capacity:string;
+  transmission:string;
+  fuel:string;
   heading: string;
   description: string;
   slug: string;
